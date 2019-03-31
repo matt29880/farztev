@@ -1,0 +1,1 @@
+sudo docker run -e JAVA_OPTS='-Dspring.datasource.url=jdbc:mysql://192.168.1.105:13306/farztevit -Dspring.datasource.username=root -Dspring.datasource.password=*****' --net test repo.treescale.com/matt29880/farztev-admin-backend

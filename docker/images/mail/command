@@ -1,0 +1,1 @@
+docker run -d -p 21:21 --restart=unless-stopped --name mailserver tvial/docker-mailserver
